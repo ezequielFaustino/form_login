@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 /*Colors
-  - background: #26007A
-  - button: #F5E622
+  - background: #2B10C2
+  - button: #1FC218
+  - text-button: #FFFF
   - texto: #020203
 */
 
@@ -17,7 +18,7 @@
 /* BODY */
 body,
 html {
-  background-color: #26007A;
+  background-color: #2B10C2;
   height: 100vh;
   width: 100vw;
   color: #020203;
@@ -61,20 +62,22 @@ div#form>h1 {
 }
 
 div#form>p {
+  text-align: justify;
   font-size: 0.8em;
+  margin-bottom: 10px;
 }
 
-form > fieldset.field{
+form>fieldset.field {
   display: block;
   width: 100%;
   height: 40px;
-  margin-top: 5px;
+  margin: 5px 0 5px 0;
   border: none;
 }
 
-fieldset.field > input{
+fieldset.field>input {
   font-size: 1em;
-  /* width: ; */
+  width: calc(100% - 10px);
   height: 100%;
   border: 0px;
   border-radius: 5px;
@@ -82,3 +85,38 @@ fieldset.field > input{
   text-align: center;
 }
 
+form>input[type="submit"] {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #1FC218;
+  color: #020203;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form>input[type="submit"]:hover{
+  background-color: #FFFF;
+  color: #020203;
+}
+
+form > .forgot-password{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  color: #020203;
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+form > .forgot-password:hover{
+  color: #2B10C2;
+}
