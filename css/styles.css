@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*Colors
   - background: #26007A
   - button: #F5E622
@@ -37,4 +39,11 @@ section#login{
   background-color: #ffff;
   border-radius: 20px;
   transform: translate(-50%, -50%);
+}
+
+section#login > div#image{
+  display: block;
+  background: url(../img/keyboard.jpg);
+  background-size: cover;
+  height: 200px;
 }
