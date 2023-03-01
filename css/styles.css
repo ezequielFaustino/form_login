@@ -1,0 +1,40 @@
+/*Colors
+  - background: #26007A
+  - button: #F5E622
+  - texto: #020203
+*/
+
+/* RESET */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body, html{
+  background-color: #26007A;
+  height: 100vh;
+  width: 100vw;
+  color: #020203;
+}
+
+main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* LOGIN */
+section#login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 500px;
+  background-color: #ffff;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
