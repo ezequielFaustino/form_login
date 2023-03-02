@@ -22,3 +22,5 @@
   
 # CSS reference
 - `@charset` regra que especifica a codificação de caracteres utilizada na folha de estilo. Deve ser o primeiro elemento na folha de estilo e não ser precedida de qualquer caráter;
+
+- https://roadmap.sh/frontend
