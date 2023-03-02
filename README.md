@@ -6,3 +6,6 @@
 - `<head>` providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos;
 - ` <meta charset="UTF-8">` Este atributo define a codificação de caracteres usada na página.
 - ` <meta http-equiv="X-UA-Compatible" content="IE=edge">`: oferece suporte a navegadores legados antigos.
+- ` <meta name="viewport" content="width=device-width, initial-scale=1.0">`: meta-tag comumente usado em web design responsivo.
+- - `<title>` define o título do documento, mostrando na barra de título de uma navegador ou na aba da página.
+- - `<link rel="stylesheet" href="css/styles.css">` especifica as relações entre o documento atual e um recurso externo. Possíveis usos para este elemento incluem a definição de uma estrutura relacional para navegação. Este elemento é mais usado para vincular as folhas de estilo. o atributo _rel_ especifica a relação entre o atual documento e o documento/arquivo referenciado.
