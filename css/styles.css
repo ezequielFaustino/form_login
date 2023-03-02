@@ -77,7 +77,7 @@ form>fieldset.field {
 
 fieldset.field>input {
   font-size: 1em;
-  width: calc(100% - 10px);
+  width: 100%;
   height: 100%;
   border: 0px;
   border-radius: 5px;
@@ -94,7 +94,7 @@ form>input[type="submit"] {
   background-color: #1FC218;
   color: #020203;
   font-weight: bold;
-  border: none;
+  border: 1px solid #020203;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -108,13 +108,13 @@ form > .forgot-password{
   display: block;
   text-align: center;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.9em;
   color: #020203;
   width: 100%;
   height: 40px;
   padding-top: 5px;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 form > .forgot-password:hover{
