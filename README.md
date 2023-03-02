@@ -1,4 +1,4 @@
-# HTML references
+# HTML reference
 
 -  `<html>` representa a raiz de um documento HTML ou XHTML. Todos os elementos devem ser descendentes desse elemento;
 -  `<!DOCTYPE html>` o doctype é a introdução encontrada no topo de todos os documentos. Seu único propósito é evitar que o browser mude para os chamados "quirks mode" quando renderizar um documento; isto é o doctype garante que o browser faça um esforço na tentativa de seguir as especificações relevantes, em vez de usar um modo de renderização diferente e que seja incompatível com algumas especificações;
@@ -17,3 +17,8 @@
 - - `<p>` em HTML, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.
 - - `<form>` representa uma seção de um documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web.
 - - `<fieldset>` é usado para agrupar elementos, assim como labels, dentro de um formulário web.
+- - `<input>` é usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+- - `<a>` define um _hyperlink_ usado para redirecionar de uma paǵina para outra.
+  
+# CSS reference
+- `@charset` regra que especifica a codificação de caracteres utilizada na folha de estilo. Deve ser o primeiro elemento na folha de estilo e não ser precedida de qualquer caráter;
