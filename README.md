@@ -11,7 +11,7 @@
 - - `<link rel="stylesheet" href="css/styles.css">` especifica as relações entre o documento atual e um recurso externo. Possíveis usos para este elemento incluem a definição de uma estrutura relacional para navegação. Este elemento é mais usado para vincular as folhas de estilo. o atributo _rel_ especifica a relação entre o atual documento e o documento/arquivo referenciado;
 - `<body>` representa o conteúdo de um documento HTML. è permitido apenas um <body> por documento;
 - - `<main>` define o conteúdo principal dentro do <body> em seu documento ou aplicação. Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação. O mesmo deverá ser único na página, ou seja, dentro do elemento <main> não deverão ser incluidas seções da página que sejam comuns a todo o site ou aplicação, tais como mecanismos de navegação, informações de copyright, logotipo e campos de busca (a não ser, é claro, caso a função principal do documento seja fazer algum tipo de busca);
-- - `<section>` representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.
+- - `<section>` representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo;
 - - `<div>` é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. 
 - - `<h1>` um elemento de cabeçalho descreve brevemente o tópico da seção em que ele está; título de seção; `<h1>` é o nível de seção mais alto;
 - - `<p>` em HTML, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.
@@ -40,3 +40,4 @@
 - `text-align` descreve como conteúdo _inline_, como texto, é alinhado no elemento pai em bloco. text-align não controla o alinhamento de elementos em bloco, apenas o seu conteúdo inline
 - `font-style` define a estilização de uma fonte, podendo ser normal, itálico entre outros.
 - `font-size` estabelece o tamanho da fonte
+- `border` define borda a um elemento;
