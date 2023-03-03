@@ -22,5 +22,9 @@
   
 # CSS reference
 - `@charset` regra que especifica a codificação de caracteres utilizada na folha de estilo. Deve ser o primeiro elemento na folha de estilo e não ser precedida de qualquer caráter;
-
 - https://roadmap.sh/frontend
+- `font-family` propriedade CSS que permite que se faça uma lista de prioridades de familias de fontes e/ou nomes genéricos de famílias a serem especificados para um elemento selecionado.
+- `padding` define uma distância entre o conteúdo de um elemento e suas bordas.
+- `margin` define a área de margem nos quatros lados do elemento.
+- `box-sizing` é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos.
+
