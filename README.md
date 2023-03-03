@@ -26,10 +26,10 @@
 - `font-family` propriedade CSS que permite que se faça uma lista de prioridades de familias de fontes e/ou nomes genéricos de famílias a serem especificados para um elemento selecionado.
 - `padding` define uma distância entre o conteúdo de um elemento e suas bordas.
 - `margin` define a área de margem nos quatros lados do elemento.
-- `box-sizing` é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (_heights_) dos elementos.
-- `position` define como um elemento pode ser posicionado (renderizado) no documento (página).
-- `height` determina a altura da área do conteúdo de um elemento.
-- `width` determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento.
+- `box-sizing` é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (_widths_) e alturas (_heights_) dos elementos.
+- `position` define como um elemento pode ser posicionado (renderizado) no documento (página);
+- `height` determina a altura da área do conteúdo de um elemento;
+- `width` determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento;
 - `overflow` A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de rolagem ou se transborda do elemento.
 - `background-color` define a cor de fundo de um elemento.
 - `border-radius` permite definir como bordas arredondadas são. A curva de cada esquina é definida usando um ou dois raios, definindo sua forma: círculo ou elipse.
