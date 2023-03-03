@@ -44,3 +44,4 @@
 - `define o valor da cor de um elemento com seu conteúdo em texto e seus estilos`;
 - `font-weight` especifica o peso ou a intensidade da fonte (ex.: negrito);
 - `cursor` especifica o cursor do mouse mostrado quando o ponteiro do mouse está sobre um elemento;
+- `text-decoration` usada para definir a formatação de _underline_, _overline_, _line-through_ ou _blink_;
