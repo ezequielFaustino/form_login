@@ -39,3 +39,4 @@
 - `background-size` especifica o tamanho das imagens de fundo. O tamanho da imagem pode ser totalmente ou apenas parcialmente comprimido com o objetivo de preservar sua proporção.
 - `text-align` descreve como conteúdo _inline_, como texto, é alinhado no elemento pai em bloco. text-align não controla o alinhamento de elementos em bloco, apenas o seu conteúdo inline
 - `font-style` define a estilização de uma fonte, podendo ser normal, itálico entre outros.
+- `font-size` estabelece o tamanho da fonte
