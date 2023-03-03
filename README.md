@@ -27,4 +27,7 @@
 - `padding` define uma distância entre o conteúdo de um elemento e suas bordas.
 - `margin` define a área de margem nos quatros lados do elemento.
 - `box-sizing` é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos.
+- `position` define como um elemento pode ser posicionado (renderizado) no documento (página).
+- `height` determina a altura da área do conteúdo de um elemento.
+- `width` determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento.
 
