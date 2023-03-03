@@ -30,4 +30,7 @@
 - `position` define como um elemento pode ser posicionado (renderizado) no documento (página).
 - `height` determina a altura da área do conteúdo de um elemento.
 - `width` determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento.
-
+- `overflow` A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de rolagem ou se transborda do elemento.
+- `background-color` define a cor de fundo de um elemento.
+- `border-radius` permite definir como bordas arredondadas são. A curva de cada esquina é definida usando um ou dois raios, definindo sua forma: círculo ou elipse.
+- `transform` permite modificar o espaço coordenado do modelo de formatação CSS. Usando-a, elementos podem ser traduzidos, rotacionados, ter seu tamanho ajustado e inclinados de acordo com os valores definidos.
